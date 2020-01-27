@@ -1,6 +1,6 @@
 # Code Book
-This code book explains the data fields obtained in "summarizedData.txt".  
-Please see the `README.md` file for more information regarding the project and how the R script `run_analysis.R` works.  
+This code book explains the data fields obtained in [summarizedData.txt](summarizedData.txt).  
+Please see the [README.md](README.md) file for more information regarding the project and how the R script [run_analysis.R](run_analysis.R) works.  
 
 ## Data
 `summarizedData.txt` is a text file containing the summarized data set, the different values are separated by one space character.  
