@@ -6,9 +6,9 @@
 
 ## Files belongig to this project
 * `README.md`:  this very file, describing the project.  
-* `CodeBook.md`:  the code book describing the content of the data set.  
-* `run_analysis.R`:  the R script used to obtain de summarized data set.  
-* `summarizedData.txt`:  the file containing the summarized data set.  
+* `CodeBook.md`:  the [code book](CodeBook.md) describing the content of the data set.  
+* `run_analysis.R`:  the [R script](run_analysis.R) used to obtain de summarized data set.  
+* `summarizedData.txt`:  the [text file](summarizedData.txt) containing the summarized data set.  
 
 ## How does it work?
 * The R script `run_analysis.R` reads the training and the test sets contained in `UCI HAR Dataset` before merging them together.
