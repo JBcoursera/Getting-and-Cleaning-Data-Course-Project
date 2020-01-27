@@ -1,10 +1,12 @@
 # Code Book
 This code book explains the data fields obtained in [summarizedData.txt](summarizedData.txt).  
+
 Please see the [README.md](README.md) file for more information regarding the project and how the R script [run_analysis.R](run_analysis.R) works.  
 
 ## Data
 `summarizedData.txt` is a text file containing the summarized data set, the different values are separated by one space character.  
-The names of the activities performed, in the second column, are letter characters framed by `"`. Otherwise all the data are numbers without any frame.  
+* The names of the activities performed, in the second column, are letter characters framed by `"`.  
+* Otherwise all the data are numbers without any frame.  
 
 ## Variables
 * `trainingSubjects`,`trainingActivity`,`trainingValues`,`testSubjects`,`testActivity` and `testValues` are data sets containing the measurements of the downloaded files.  
@@ -24,13 +26,10 @@ The names of the activities performed, in the second column, are letter characte
 	*  `LAYING`: subject was laying down during the test
 
 ## Measurements and averages
-Each row of the data set contains the subject ID, the type of activity and 79 averaged signal measurements.
-
-The measurements are all normalized between [-1;1] with no unit.  
-
-Before this, accelerometer unit of measure is m/s^2 and gyroscope unit of measure is rad/s.  
-
-The *timeDomain* records are measurements of raw signals, while the *frequencyDomain* records are Fast Fourier Transform processing of raw signals.
+* Each row of the data set contains the subject ID, the type of activity and 79 averaged signal measurements.
+* The measurements are all normalized between [-1;1] with no unit.  
+	* Before this, accelerometer unit of measure is m/s^2 and gyroscope unit of measure is rad/s.  
+	* The *timeDomain* records are measurements of raw signals, while the *frequencyDomain* records are Fast Fourier Transform processing of raw signals.  
 
 Here are the recorded and summarized signals:  
 ```
