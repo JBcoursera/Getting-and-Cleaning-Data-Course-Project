@@ -7,7 +7,7 @@
 ## Files belongig to this project
 * `README.md`:  this very file, describing the project.  
 * `CodeBook.md`:  the [code book](CodeBook.md) describing the content of the data set.  
-* `run_analysis.R`:  the [R script](run_analysis.R) used to obtain de summarized data set.  
+* `run_analysis.R`:  the [R script](run_analysis.R) used to obtain the summarized data set.  
 * `summarizedData.txt`:  the [text file](summarizedData.txt) containing the summarized data set.  
 
 ## How does it work?
